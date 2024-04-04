@@ -653,13 +653,6 @@ input::placeholder {
     max-width: 1140px !important;
   }
 }
-
-@media (min-width:1536px) {
-  .bg-hero {
-    min-height: 810px;
-  }
-}
-
 @media (max-width:768px) {
   :root {
     --fs-xs: 14px;
