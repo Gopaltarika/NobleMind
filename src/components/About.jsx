@@ -18,10 +18,10 @@ const About = () => {
                         <div className='max-w-521'>
                             <div className="d-flex align-items-center" data-aos="fade-down">
                                 <img src={star} alt="star" />
-                                <p className='m-0 Exo-2 fw-normal fs-sm lh-sm c-primery-low ms-2'>About Us</p>
+                                <p className='m-0 Exo-2 fw-normal fs-sm leading-sm c-primery-low ms-2'>About Us</p>
                             </div>
                             <h2 className='fs-lg Outfit c-primery-low pt-2 m-0' data-aos="fade-down"><span className='fw-light'>Pioneering Vision & Mission-</span><span className='fw-semibold'>Driven Sectoral Innovation</span></h2>
-                            <p className='Exo-2 fw-normal lh-sm fs-sm text-black opacity-70 pb-3 m-0 pt-3 mb-sm-4 max-w-491' data-aos="fade-down">Imagine a future in Saudi Arabia influenced by the potential of Al, with Noble Mind at the forefront of this transformation. Healthcare stands to gain with the promise of enhanced data precision. In education, there's the potential for individualized learning experiences. Finance could witness seamless transactions, and entertainment may revel in customized experiences. Through Al's promise, transportation could innovate and cities might adapt smarter infrastructures. In every domain, the vision of Noble Mind hints at a brighter, more efficient nation.</p>
+                            <p className='Exo-2 fw-normal leading-sm fs-sm text-black opacity-70 pb-3 m-0 pt-3 mb-sm-4 max-w-491' data-aos="fade-down">Imagine a future in Saudi Arabia influenced by the potential of Al, with Noble Mind at the forefront of this transformation. Healthcare stands to gain with the promise of enhanced data precision. In education, there's the potential for individualized learning experiences. Finance could witness seamless transactions, and entertainment may revel in customized experiences. Through Al's promise, transportation could innovate and cities might adapt smarter infrastructures. In every domain, the vision of Noble Mind hints at a brighter, more efficient nation.</p>
                             <Commonbtn btn="Read More" />
                         </div>
                     </div>

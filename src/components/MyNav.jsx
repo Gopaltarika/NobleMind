@@ -16,12 +16,12 @@ const MyNav = () => {
                 </a>
                 <div className='d-flex align-items-center gap-40'>
                     <ul className={`m-0 p-0 d-flex align-items-center gap-4 mobileView ${view ? "start-0" : "left-100"} `}>
-                        <li><a href="#home" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 lh-sm" onClick={hide}>Home</a></li>
-                        <li><a href="#about" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 lh-sm" onClick={hide}>About Us</a></li>
-                        <li><a href="#service" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 lh-sm" onClick={hide}>Services</a></li>
-                        <li><a href="#choose" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 lh-sm" onClick={hide}>Why Choose Us</a></li>
-                        <li><a href="#blogs" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 lh-sm" onClick={hide}>Blogs</a></li>
-                        <li><a href="#faq" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 lh-sm" onClick={hide}>FAQ</a></li>
+                        <li><a href="#home" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 leading-sm" onClick={hide}>Home</a></li>
+                        <li><a href="#about" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 leading-sm" onClick={hide}>About Us</a></li>
+                        <li><a href="#service" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 leading-sm" onClick={hide}>Services</a></li>
+                        <li><a href="#choose" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 leading-sm" onClick={hide}>Why Choose Us</a></li>
+                        <li><a href="#blogs" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 leading-sm" onClick={hide}>Blogs</a></li>
+                        <li><a href="#faq" className="c-primery-low opacity-70 fw-normal fs-sm Exo-2 leading-sm" onClick={hide}>FAQ</a></li>
                         <li className='d-block d-sm-none'>
                             <Commonbtn btn="Contact Us" />
                         </li>

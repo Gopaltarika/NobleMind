@@ -360,6 +360,10 @@ input::placeholder {
   top: -10%;
 }
 
+.leading-sm {
+  line-height: 24px !important;
+}
+
 .backtop {
   width: 45px;
   height: 45px;
@@ -653,6 +657,7 @@ input::placeholder {
     max-width: 1140px !important;
   }
 }
+
 @media (max-width:768px) {
   :root {
     --fs-xs: 14px;

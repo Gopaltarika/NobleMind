@@ -7,7 +7,7 @@ const Faq = () => {
             <img className='position-absolute end-5 top-50 ellipis' src={ellipis} alt="ellipis" />
             <div className="container position-relative z-1" id="faq">
                 <h2 className='fs-lg Outfit c-primery-low m-0 text-center' data-aos="fade-down"><span className='fw-light'>Frequently </span><span className='fw-semibold'>Asked Questions</span></h2>
-                <p className='Exo-2 fw-normal lh-sm fs-sm c-primery-low pt-3 opacity-70 m-0 text-center mb-5 pb-1' data-aos="fade-down">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu <span className='d-sm-block'>volutpat mi leo. Nibh nisl consequat metus.</span></p>
+                <p className='Exo-2 fw-normal leading-sm fs-sm c-primery-low pt-3 opacity-70 m-0 text-center mb-5 pb-1' data-aos="fade-down">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu <span className='d-sm-block'>volutpat mi leo. Nibh nisl consequat metus.</span></p>
                 <div className='row justify-content-center'>
                     <div className="accordion col-lg-8" id="accordionExample">
                         <div className="accordion-item" data-aos="fade-down">

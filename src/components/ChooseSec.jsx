@@ -15,7 +15,7 @@ const ChooseSec = () => {
             <div className="container position-relative z-1" id="choose">
                 <div className="d-flex align-items-center justify-content-center" data-aos="fade-down">
                     <img src={star} alt="star" />
-                    <p className='m-0 Exo-2 fw-normal fs-sm lh-sm c-primery-low ms-2'>Why Choose Us</p>
+                    <p className='m-0 Exo-2 fw-normal fs-sm leading-sm c-primery-low ms-2'>Why Choose Us</p>
                 </div>
                 <h2 className='fs-lg Outfit c-primery-low pt-2 m-0 text-center' data-aos="fade-down"><span className='fw-light'>Driving Innovation &</span><span className='fw-semibold d-block'> Transforming Industries</span></h2>
                 <Swiper
@@ -27,7 +27,7 @@ const ChooseSec = () => {
                     loop={true}
                     autoplay={{ delay: 2000 }}
                     centeredSlides={true}
-                    pagination={{ clickable: true, type: 'bullets', dynamicBullets: true, dynamicMainBullets: 3  }}
+                    pagination={{ clickable: true, type: 'bullets', dynamicBullets: true, dynamicMainBullets: 3 }}
                     breakpoints={{
                         576: {
                             slidesPerView: 2,
@@ -51,7 +51,7 @@ const ChooseSec = () => {
                         </svg>
                         </span>
                         <h3 className='fw-normal fs-md Outfit c-primery-low m-0 mt-2 pt-1'>Customer-Centric</h3>
-                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm lh-sm pt-1'>Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.</p>
+                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm leading-sm pt-1'>Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.</p>
                     </SwiperSlide>
                     <SwiperSlide className='slide-card'>
                         <span><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@ const ChooseSec = () => {
                         </svg>
                         </span>
                         <h3 className='fw-normal fs-md Outfit c-primery-low m-0 mt-2 pt-1'>Workplace Harmony</h3>
-                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm lh-sm pt-1'>Create a nurturing and peaceful environment, fostering growth, well-being. We are more than a team; we are a family.</p>
+                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm leading-sm pt-1'>Create a nurturing and peaceful environment, fostering growth, well-being. We are more than a team; we are a family.</p>
                     </SwiperSlide>
                     <SwiperSlide className='slide-card'>
                         <span><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@ const ChooseSec = () => {
                         </svg>
                         </span>
                         <h3 className='fw-normal fs-md Outfit c-primery-low m-0 mt-2 pt-1'>Ethical Leadership</h3>
-                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm lh-sm pt-1'>Maintain the highest standards in all practices, ensuring our solutions are responsible, safe, and transparent.</p>
+                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm leading-sm pt-1'>Maintain the highest standards in all practices, ensuring our solutions are responsible, safe, and transparent.</p>
                     </SwiperSlide>
                     <SwiperSlide className='slide-card'>
                         <span><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -98,7 +98,7 @@ const ChooseSec = () => {
                             </defs>
                         </svg></span>
                         <h3 className='fw-normal fs-md Outfit c-primery-low m-0 mt-2 pt-1'>Customer-Centric</h3>
-                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm lh-sm pt-1'>Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.</p>
+                        <p className='m-0 c-primery-low fw-normal Exo-2 fs-sm leading-sm pt-1'>Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.</p>
                     </SwiperSlide>
                 </Swiper>
                 <img className='w-100 img-sort' data-aos="flip-up" src={chooseimg} alt="chosse-sec-img" />
