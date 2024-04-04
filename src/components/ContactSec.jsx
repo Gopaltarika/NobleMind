@@ -17,7 +17,7 @@ const ContactSec = () => {
                                     <input className='w-100 input-type' name='name' id='name' type="text" required />
                                 </div>
                                 <div className='w-100 ms-1'>
-                                    <label htmlFor="Last" className='mb-2'>Last</label> <br />
+                                    <label htmlFor="Last Name" className='mb-2'>Last Name</label> <br />
                                     <input className='w-100 input-type' name='Last' id='Last' type="text" required />
                                 </div>
                             </div>
