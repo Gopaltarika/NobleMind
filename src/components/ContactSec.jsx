@@ -7,7 +7,7 @@ const ContactSec = () => {
         <div>
             <div className="container my-150">
                 <div className="row" id="contact">
-                    <div className="col-lg-5">
+                    <div className="col-xl-5 col-lg-6">
                         <h2 className='fs-lg Outfit c-primery-low m-0' data-aos="fade-down"><span className='fw-semibold'>Contact</span><span className='fw-light'>  Us</span></h2>
                         <p className='m-0 fw-normal fs-sm Exo-2 c-primery-low pt-sm-3' data-aos="fade-down">Feel free to contact us any time . We will get back to you <span className='d-sm-block'>as soon as we can!</span> </p>
                         <form className='mt-3'>
@@ -28,7 +28,7 @@ const ContactSec = () => {
                             <Commonbtn btn="Submit" />
                         </form>
                     </div>
-                    <div className="col-lg-7 pt-lg-0 pt-4 d-flex justify-content-center ">
+                    <div className="col-xl-7 col-lg-6 pt-lg-0 pt-4 d-flex justify-content-center ">
                         <img className='w-100 max-w-592 img-sort' data-aos="zoom-in-up" src={contact} alt="contact-img" />
                     </div>
                 </div>

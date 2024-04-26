@@ -612,6 +612,11 @@ input::placeholder {
     right: 0;
   }
 }
+@media (max-width:1024.1px) {
+  .bg-hero{
+    background-size: cover;
+  }
+}
 
 @media (max-width:991.9px) {
   .mobileView {

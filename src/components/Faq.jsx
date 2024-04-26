@@ -9,7 +9,7 @@ const Faq = () => {
                 <h2 className='fs-lg Outfit c-primery-low m-0 text-center' data-aos="fade-down"><span className='fw-light'>Frequently </span><span className='fw-semibold'>Asked Questions</span></h2>
                 <p className='Exo-2 fw-normal leading-sm fs-sm c-primery-low pt-3 opacity-70 m-0 text-center mb-5 pb-1' data-aos="fade-down">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu <span className='d-sm-block'>volutpat mi leo. Nibh nisl consequat metus.</span></p>
                 <div className='row justify-content-center'>
-                    <div className="accordion col-lg-8" id="accordionExample">
+                    <div className="accordion col-lg-10 col-xl-8" id="accordionExample">
                         <div className="accordion-item" data-aos="fade-down">
                             <h2 className="accordion-header">
                                 <button className="accordion-button Outfit fw-medium fs-sm text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
